@@ -1,0 +1,28 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Insert title here</title>
+</head>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+var prevLink = document.referrer;  
+location.href = prevLink;
+/*
+if($.trim(prevLink)==''){  
+    location.href = 'www.example.com/index.html';  
+}else{  
+    if(prevLink.indexOf('www.example.com')==-1){    //来自其它站点  
+        location.href = 'www.example.com/index.html';  
+    }  
+    if(prevLink.indexOf('register.html')!=-1){      //来自注册页面  
+        location.href = 'www.example.com/index.html';  
+    }  
+    location.href = prevLink;  
+} 
+*/
+
+</script>
+<body>
+<h1>登陆成功</h1>
+</body>
+</html>
